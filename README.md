@@ -4,37 +4,39 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/xwablctxslvey576/branch/main?svg=true)](https://ci.appveyor.com/project/flet-dev/flet/branch/main)
 
-Flet is a framework that enables you to easily build realtime web, mobile and desktop apps in your favorite language and securely share them with your team. No frontend experience required.
+Flet เป็นเฟรมเวิร์กที่ช่วยให้คุณสร้างแอปแบบเรียลไทม์สำหรับเว็บ มือถือ และเดสก์ท็อป ในภาษาที่คุณชื่นชอบได้อย่างง่ายดาย และแบ่งปันกับทีมของคุณได้อย่างปลอดภัย ไม่จำเป็นต้องมีประสบการณ์เกี่ยวกับ frontend มาก่อน
 
-### ⚡From idea to app in minutes
+### ⚡จากไอเดียสู่แอพในไม่กี่นาที
 
-An internal tool or a dashboard for your team, weekend project, data entry form, kiosk app or high-fidelity prototype - Flet is an ideal framework to quickly hack a great-looking interactive apps to serve a group of users.
+เครื่องมือภายในหรือแดชบอร์ดสำหรับทีมของคุณ โปรเจ็กต์ช่วงสุดสัปดาห์ , แบบฟอร์มการป้อนข้อมูล , แอปคีออสก์ หรือ แบบที่มีความแม่นยำสูง 
+- Flet เป็นเฟรมเวิร์กในอุดมคติ แฮ็กแอปทำการการโต้ตอบที่ดูดีได้ อย่างรวดเร็วเพื่อให้บริการกับกลุ่มผู้ใช้งาน
 
-### 📐 Simple architecture
+### 📐 สถาปัตยกรรมที่เรียบง่าย
 
-No more complex architecture with JavaScript frontend, REST API backend, database, cache, etc. With Flet you just write a monolith stateful app in Python only and get multi-user, realtime Single-Page Application (SPA).
+ไม่มีสถาปัตยกรรมที่ซับซ้อนอีกต่อไปกับ Front End ที่เป็น JavaScript, Front End REST API, ฐานข้อมูล, แคช ฯลฯ ด้วย Flet คุณเพียงแค่เขียนแอปเก็บสถานะแบบชั้นเดียวใน Python เท่านั้น และสมารถรับแอปพลิเคชัน หน้าเดียวแบบเรียลไทม์สำหรับผู้ใช้หลายคนแบบเรียลไทม์ได้ (SPA)
 
-### 🔋Batteries included
+### 🔋รวมมาอยู่เป็นแบตเตอรี่
 
-To start developing with Flet, you just need your favorite IDE or text editor. No SDKs, no thousands of dependencies, no complex tooling - Flet has built-in web server with assets hosting and desktop clients.
+ในการเริ่มต้นพัฒนาด้วย Flet คุณเพียงแค่ต้องมี IDE หรือโปรแกรมแก้ไขข้อความที่คุณชื่นชอบ ไม่มีต้อง SDK ไม่ต้องการ dependencies มากมายก่ายกอง ไม่มีเครื่องมือที่ซับซ้อน 
+- Flet มีเว็บเซิร์ฟเวอร์ในตัวพร้อมในการโฮสต์ assets และไคลเอนต์เดสก์ท็อป
 
-### &nbsp;<img src="media/flutter/icon_flutter.svg" height="20px" />&nbsp;&nbsp;Powered by Flutter
+### &nbsp;<img src="media/flutter/icon_flutter.svg" height="20px" />&nbsp;&nbsp;ขับเคลื่อนโดย Flutter
 
-Flet UI is built with [Flutter](https://flutter.dev/), so your app looks professional and could be delivered to any platform. Flet simplifies Flutter model by combining smaller "widgets" to ready-to-use "controls" with imperative programming model.
+Flet UI สร้างขึ้นด้วย [Flutter](https://flutter.dev/) ดังนั้นแอปของคุณจึงดูเป็นมืออาชีพและสามารถส่งไปยังแพลตฟอร์มใดก็ได้ Flet ช่วยลดความซับซ้อนของโมเดล Flutter โดยการรวม "วิดเจ็ต" ที่เล็กกว่าเข้ากับ "การควบคุม" ที่พร้อมใช้งานกับโมเดลเพื่อเขียนโปรแกรมในส่วนที่จำเป็นจริงๆ
 
-### 🌐 Speaks your language
+### 🌐 ใช้ได้ในภาษาของคุณ
 
-Flet is language-agnostic, so anyone on your team could develop Flet apps in their favorite language. [Python](https://flet.dev/docs/getting-started/python) is already supported, Go, C# and others are [coming next](https://flet.dev/docs/roadmap).
+Flet เป็นภาษา  language-agnostic ดังนั้นทุกคนในทีมของคุณสามารถพัฒนาแอป Flet ในภาษาที่พวกเขาชื่นชอบได้ [Python](https://flet.dev/docs/getting-started/python) ได้รับการสนับสนุนแล้ว Go, C # และอื่น ๆ ตอนนี้ [กำลังมาในอนาคต](https://flet.dev/docs/roadmap).
 
-### 📱 Deliver to any device
+### 📱 ส่งไปยังอุปกรณ์อื่นๆ
 
-Deploy Flet app as a web app and view it in a browser. Package it as a standalone desktop app for Windows, macOS and Linux. Install it on mobile as [PWA](https://web.dev/what-are-pwas/) or view via Flet app for iOS and Android.
+การ Deploy แอป Flet ให้เป็นเว็บแอปและดูในเบราว์เซอร์ได้ และยังบรรจุเป็นแอปเดสก์ท็อปแบบสแตนด์อโลนสำหรับ Windows, macOS และ Linux ติดตั้งบนมือถือเป็น [PWA](https://web.dev/what-are-pwas/) หรือดูผ่านแอพ Flet สำหรับ iOS และ Android
 
-## Flet app example
+## ตัวอย่างแอพ Flet
 
-At the moment you can write Flet apps in Python and other languages will be added soon.
+ในขณะนี้ คุณสามารถเขียนแอพ Flet ใน Python และภาษาอื่นๆ จะถูกเพิ่มในไม่ช้า
 
-Here is a sample "Counter" app:
+นี่คือตัวอย่างแอป "Counter":
 
 ```python title="counter.py"
 import flet
@@ -68,48 +70,48 @@ def main(page: Page):
 flet.app(target=main)
 ```
 
-To run the app install `flet` module:
+เพื่อให้มันทำงานต้องติดตั้งโมดูล `flet` ก่อน:
 
 ```bash
 pip install flet
 ```
 
-and run the program:
+จากนั้นเรียกใช้งานโปรแกรมได้เลย:
 
 ```bash
 python counter.py
 ```
 
-The app will be started in a native OS window - what a nice alternative to Electron!
+แอพจะเริ่มต้นใน หน้าต่างระบบปฏิบัติการเดิม - เป็นทางเลือกที่ดีเหมือน Electron
 
 <img src="https://flet.dev/img/docs/getting-started/flet-counter-macos.png" width="45%" />
 
 
-Now, if you want to run the app as a web app, just replace the last line with:
+ตอนนี้ ถ้าคุณต้องการเรียกใช้แอปเป็นแบบเว็บแอป เพียงแทนแค่ที่บรรทัดสุดท้ายด้วย:
 
 ```python
 flet.app(target=main, view=flet.WEB_BROWSER)
 ```
 
-run again and now you instantly get a web app:
+เรียกใช้อีกครั้งและตอนนี้คุณจะได้รับเว็บแอปทันที:
 
 <img src="https://flet.dev/img/docs/getting-started/flet-counter-safari.png" width="60%" />
 
-## Getting started
+## เริ่มต้นกัน
 
 * [Creating Flet apps in Python](https://flet.dev/docs/getting-started/python)
-* [Controls reference](https://flet.dev/docs/controls)
+* [การอ้างอิงการ Controls ](https://flet.dev/docs/controls)
 
-## Sample apps in Python
+## แอพตัวอย่างใน Python
 
-* [Greeter](https://github.com/flet-dev/examples/blob/main/python/apps/greeter/greeter.py)
-* [Counter](https://github.com/flet-dev/examples/blob/main/python/apps/counter/counter.py)
-* [To-Do](https://github.com/flet-dev/examples/blob/main/python/apps/todo/todo.py)
-* [Icons Browser](https://github.com/flet-dev/examples/blob/main/python/apps/icons-browser/main.py) ([Online Demo](https://flet-icons-browser.fly.dev/))
+* [ทักทาย](https://github.com/flet-dev/examples/blob/main/python/apps/greeter/greeter.py)
+* [ตัวนับ](https://github.com/flet-dev/examples/blob/main/python/apps/counter/counter.py)
+* [แอพ To-Do](https://github.com/flet-dev/examples/blob/main/python/apps/todo/todo.py)
+* [เบราว์เซอร์ ไอคอน](https://github.com/flet-dev/examples/blob/main/python/apps/icons-browser/main.py) ([ดูตัวอย่างออนไลน์](https://flet-icons-browser.fly.dev/))
 
-## Community
+## ชุมชน
 
-* [Discussions](https://github.com/flet-dev/flet/discussions)
-* [Discord](https://discord.gg/dzWXP8SHG8)
-* [Twitter](https://twitter.com/fletdev)
-* [Email](mailto:hello@flet.dev)
+* [พูดคุย](https://github.com/flet-dev/flet/discussions)
+* [ดิสคอร์ด](https://discord.gg/dzWXP8SHG8)
+* [ทวิตเตอร์](https://twitter.com/fletdev)
+* [อีเมล์](mailto:hello@flet.dev)
