@@ -99,7 +99,7 @@ flet.app(target=main, view=flet.WEB_BROWSER)
 
 ## เริ่มต้นกัน
 
-* [Creating Flet apps in Python](https://flet.dev/docs/getting-started/python)
+* [การสร้างแอพ Flet ใน Python](https://flet.dev/docs/getting-started/python)
 * [การอ้างอิงการ Controls ](https://flet.dev/docs/controls)
 
 ## แอพตัวอย่างใน Python
